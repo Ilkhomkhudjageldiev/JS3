@@ -1,6 +1,6 @@
 
 
-do{ var son = prompt('Hurmatli foydalanuvchi son kiriting: ')
+do{ var son = +prompt('Hurmatli foydalanuvchi son kiriting: ')
 
 } while(son <= 0 && son !== !isNaN(son))
 
